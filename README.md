@@ -1,18 +1,9 @@
-# YouTube-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>🔥 Car Simulator Shorts | Watch Now</title>
-
-  <!-- SEO + Social Share Meta Tags -->
-  <meta name="description" content="Watch amazing gameplay of Car Simulator Game - Real Indian Cars! Subscribe now!">
-  <meta property="og:title" content="🔥 Trending Car Simulator Shorts!">
-  <meta property="og:description" content="Watch Car Simulator Game - Real Indian Cars Gameplay. Hit LIKE and SUBSCRIBE now!">
-  <meta property="og:image" content="https://i.ytimg.com/vi/5Q8aHgLHUMM/hqdefault.jpg">
-  <meta property="og:url" content="https://youtube.com/shorts/5Q8aHgLHUMM">
-  <meta property="og:type" content="video.other">
+  <title>🔥 Car Simulator - 3M Views</title>
 
   <style>
     body {
@@ -41,6 +32,7 @@
       border-radius: 20px;
       overflow: hidden;
       box-shadow: 0 0 20px red;
+      position: relative;
     }
 
     iframe {
@@ -70,21 +62,46 @@
     .whatsapp-share:hover {
       background: #1da851;
     }
+
+    /* Animated 3M Views Popup */
+    .popup {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #000;
+      color: #ffdf00;
+      padding: 15px 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #ffdf00;
+      font-size: 18px;
+      font-weight: bold;
+      z-index: 9999;
+      animation: fadeOut 6s ease forwards;
+    }
+
+    @keyframes fadeOut {
+      0% { opacity: 1; transform: scale(1);}
+      80% {opacity: 1;}
+      100% {opacity: 0; transform: scale(0.9);}
+    }
   </style>
 </head>
 <body>
 
-  <h1>🔥 Car Simulator Game Shorts</h1>
+  <!-- 🔥 POPUP 3M VIEWS -->
+  <div class="popup">🔥 3,000,000+ Views!</div>
+
+  <h1>🚗 Car Simulator Game Shorts</h1>
 
   <div class="video-wrapper">
     <iframe 
       src="https://www.youtube.com/embed/5Q8aHgLHUMM?autoplay=1&mute=1&modestbranding=1&rel=0&loop=1&playlist=5Q8aHgLHUMM"
       allow="autoplay; encrypted-media"
-      allowfullscreen
-    ></iframe>
+      allowfullscreen>
+    </iframe>
   </div>
 
-  <div class="cta">🎮 Enjoy the Game? Like, Share, and Subscribe!</div>
+  <div class="cta">🎮 Loved it? Like, Share, and Subscribe!</div>
 
   <a class="whatsapp-share"
      href="https://wa.me/?text=🔥 Must Watch This Car Simulator Game Shorts: https://youtube.com/shorts/5Q8aHgLHUMM"
